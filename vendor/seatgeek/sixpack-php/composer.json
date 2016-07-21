@@ -1,0 +1,26 @@
+{
+    "name": "seatgeek/sixpack-php",
+    "description": "Sixpack A/B testing framework client",
+    "keywords": ["api", "sixpack"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zack Kitzmiller",
+            "email": "zack@seatgeek.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SeatGeek": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SeatGeek\\Sixpack\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}

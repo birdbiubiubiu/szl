@@ -1,0 +1,5 @@
+{
+    "require": {
+        "seatgeek/sixpack-php": "^2.0"
+    }
+}

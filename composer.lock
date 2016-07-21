@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2fac02ae3f32c0d0c129e2a0339fe2d1",
+    "content-hash": "69d309dfc1b63508ace313d6704a4522",
+    "packages": [
+        {
+            "name": "seatgeek/sixpack-php",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seatgeek/sixpack-php.git",
+                "reference": "84da832a1282bf7fc62bfa2922cbbdff496ff5c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/seatgeek/sixpack-php/84da832a1282bf7fc62bfa2922cbbdff496ff5c5.zip",
+                "reference": "84da832a1282bf7fc62bfa2922cbbdff496ff5c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SeatGeek": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Zack Kitzmiller",
+                    "email": "zack@seatgeek.com"
+                }
+            ],
+            "description": "Sixpack A/B testing framework client",
+            "keywords": [
+                "api",
+                "sixpack"
+            ],
+            "time": "2015-12-12 23:14:22"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
